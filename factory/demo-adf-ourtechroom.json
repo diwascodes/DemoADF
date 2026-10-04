@@ -1,0 +1,21 @@
+{
+	"name": "demo-adf-ourtechroom",
+	"properties": {
+		"globalParameters": {
+			"email_group_receipient": {
+				"type": "string",
+				"value": "ourtechroom777@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5d5b0f83-bfe6-4d0b-a2f5-778391e878c7",
+		"tenantId": "415198af-6f87-4770-9261-39db9983fcc1"
+	}
+}
